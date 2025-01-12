@@ -16,9 +16,9 @@ def rock_scissor_paper():
     elif (user_choice == "가위" and computer_choice == "보") or \
          (user_choice == "바위" and computer_choice == "가위") or \
          (user_choice == "보" and computer_choice == "바위"):
-        print("사용자가 이겼습니다")
+        print("이겼습니다")
     else:
-        print("컴퓨터가 이겼습니다")
+        print("졌습니다")
 
 # 게임 실행
 if __name__ == "__main__":
